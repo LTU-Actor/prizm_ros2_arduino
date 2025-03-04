@@ -5,6 +5,13 @@ Unofficial Arduino microcode for the Tetrix PRIZM controller. Able to interface 
 ## Setup & Installation
 **NOTE: You only need to do this if you want to flash the controller!**
 
+### Step 0: Allow Writing over USB
+You may need to allow your user to communicate with devices over USB. To do this, run this command:
+```
+sudo adduser $USER dialout
+```
+Reboot your device after adding yourself to the dialout group.
+
 ### Step 1: Install VSCode
 Install VSCode for your machine from the official source: https://code.visualstudio.com/
 
